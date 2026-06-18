@@ -11,7 +11,7 @@ provider:
     role: arn:aws:iam::095017321977:role/LabRole
   environment:
     TABLE_NAME: ${sls:stage}-t_comentarios
-    BUCKET_NAME: ${sls:stage}-bucket-comentarios
+    BUCKET_NAME: ${sls:stage}-bucket-comentarios-ingesta
 
 functions:
   crear:
